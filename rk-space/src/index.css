@@ -1,0 +1,17 @@
+/* RK.SPACE — global reset only.
+   All visual styling ships inside App.jsx via <style>{CSS}</style>,
+   so this file intentionally stays minimal. Do not add design here. */
+:root {
+  color-scheme: dark;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: #04060b;
+}
+
+#root {
+  min-height: 100vh;
+}
